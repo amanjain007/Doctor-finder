@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
+</style>
+</head>
+    
+    
+<body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.php">Home</a></li>
+    </ul>
+  </div>
+</nav> <br><br>
+    
+    
+    <br><br><br>
+    <div class="container">
+  <div class="jumbotron">
+      <img src="z4.jpg" alt="Avatar" class="avatar">
+      <h3>Dr.John Miller</h3>      
+     <br>
+   <p> BDS, MDS - Orthodontics and Dentofacial Orthopaedics
+10 years experience<br>
+Dentist <br>
+        noida 62
+        
+      </p>
+      <form name="Filter" method="POST" action="dt1.php">
+    
+    <input type="date" name="dateFrom" value="<?php echo date('Y-m-d'); ?>" />
+    <input type="time" name="time" value="<?php echo date(h:i);?>"/>
+    <input style="background-color:aquamarine" type="submit" name="submit" value="TAKE APPOINTMENT"/>
+</form>
+  </div>
+    </div>
+    <div class="container">
+  <div class="jumbotron">
+      <img src="z1.jpg" alt="Avatar" class="avatar">
+    <h3>Dr.Arman Malik</h3>  <br>    
+    <p>BDS, <br>Fellowship in Cosmetic Dentistry
+        Dentist
+       <br> noida 62
+        
+      </p>
+      <form name="Filter" method="POST" action="dt1.php">
+    
+    <input type="date" name="dateFrom" value="<?php echo date('Y-m-d'); ?>" />
+    <input type="time" name="time" value="<?php echo date(h:i);?>"/>
+    <input style="background-color:aquamarine" type="submit" name="submit" value="TAKE APPOINTMENT"/>
+</form>
+  </div>
+    </div>
+        
+    <div class="container">
+  <div class="jumbotron">
+      <img src="z2.jpg" alt="Avatar" class="avatar">
+    <h4>Dr.Virat </h4>  <br>    
+    <p>MBBS, MS - General Surgery, <br>FIAGES, FAIS, FALS
+15 years experience
+Dentist
+     <br>   noida 62
+        
+      </p>
+      <form name="Filter" method="POST" action="dt1.php">
+    
+    <input type="date" name="dateFrom" value="<?php echo date('Y-m-d'); ?>" />
+    <input type="time" name="time" value="<?php echo date(h:i);?>"/>
+    <input style="background-color:aquamarine" type="submit" name="submit" value="TAKE APPOINTMENT"/>
+</form>
+  </div>
+    </div>
+    
+    <div class="container">
+  <div class="jumbotron">
+      <img src="z3.jpg" alt="Avatar" class="avatar">
+    <h4>Dr.Prakhar</h4><br>      
+    <p>MBBS, 
+         <br> MS - Dentist
+19 years experience <br>
+        noida 62
+        
+        
+      </p>
+      <form name="Filter" method="POST" action="dt1.php">
+    
+    <input type="date" name="dateFrom" value="<?php echo date('Y-m-d'); ?>" />
+    <input type="time" name="time" value="<?php echo date(h:i);?>"/>
+    <input style="background-color:aquamarine" type="submit" name="submit" value="TAKE APPOINTMENT"/>
+</form>
+  </div>
+    </div>
+    
+</body>
+</html>
